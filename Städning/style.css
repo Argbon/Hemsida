@@ -1,0 +1,48 @@
+body{
+    background-color: white;
+}
+
+#picture1{
+    background: url("https://t3.ftcdn.net/jpg/03/30/81/70/360_F_330817072_DJIe5dlLrZDLjI62ORM5xDcDjixTUQrY.jpg") center center no-repeat; 
+    background-size: cover;
+}
+
+#black{
+    background: url("https://img.freepik.com/free-photo/old-black-background-grunge-texture-dark-wallpaper-blackboard-chalkboard-room-wall_1258-28312.jpg") center center no-repeat;
+}
+
+#backgroundtext{
+    text-align: center;
+    padding: 310px 0;
+}
+
+#header{
+    padding: 0px;
+    color: white;
+    text-align: center;
+}
+
+.column {
+    float: left;
+    width: 50%;
+  }
+  
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#left{
+    background: url("https://media.istockphoto.com/id/1157329161/sv/foto/vit-marmor-textur-bakgrund-med-detaljerad-struktur-h%C3%B6g-uppl%C3%B6sning-ljusa-och-lyxiga-abstrakt.jpg?s=612x612&w=0&k=20&c=ylsPJJeb6PwsirtPuCzNmnfJlOw6MQVA-OrQ4dSoFRY=") center center no-repeat;
+    text-align: center;
+    color: black;
+}
+
+#right{
+    background: url("https://media.istockphoto.com/id/1157329161/sv/foto/vit-marmor-textur-bakgrund-med-detaljerad-struktur-h%C3%B6g-uppl%C3%B6sning-ljusa-och-lyxiga-abstrakt.jpg?s=612x612&w=0&k=20&c=ylsPJJeb6PwsirtPuCzNmnfJlOw6MQVA-OrQ4dSoFRY=") center center no-repeat;
+    text-align: center;
+    color: black;
+}
+
+
