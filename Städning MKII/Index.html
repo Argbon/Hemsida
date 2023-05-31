@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Jo's Hem / Kontorsservice</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  <header>
+    <h1>Välkommen till Jo's Hem / Kontorsservice</h1>
+    <nav>
+      <ul>
+        <li><a href="#home">Hem</a></li>
+        <li><a href="#services">Tjänster</a></li>
+        <li><a href="#pricing">Priser</a></li>
+        <li><a href="#contact">Kontakt</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home">
+      <h2>Hem</h2>
+      <p>
+        Välkommen till Jo's Hem / Kontorsservice! Vi är ett professionellt städföretag som erbjuder högkvalitativa städtjänster för både hem och kontor. Vårt erfarna team ser till att din yta är fläckfri och skinande ren.
+      </p>
+    </section>
+
+    <section>
+      <h2>Om oss</h2>
+       <p>
+        Jo's Hem / Kontorsservice är ett professionellt städföretag som erbjuder
+        högkvalitativa städtjänster för hem och kontor. Med vårt dedikerade team
+        och noggrannhet ser vi till att våra kunder får en ren och trivsam
+         miljö.
+       </p>
+    </section>
+
+    <section>
+      <h2>Recensioner</h2>
+      <p>
+        "Fantastiskt städfirma! De gjorde ett fantastiskt jobb med att rengöra
+        mitt hem och var mycket professionella och pålitliga."
+      </p>
+      <p>
+       "Jag är så nöjd med kontorstädningen. Personalen var effektiv och
+        noggrann. Rekommenderas starkt!"
+      </p>
+    </section>
+
+    <section id="services">
+      <h2>Tjänster</h2>
+      <p>
+        Vi erbjuder ett brett utbud av städtjänster som är skräddarsydda för att möta dina specifika behov.
+      </p>
+      <ul>
+        <li>Regelbunden hemstädning</li>
+        <li>Kontorsstädning</li>
+        <li>Djuprengöring</li>
+        <li>Matt-rengöring</li>
+        <li>Fönster-rengöring</li>
+        <li>In-/utflyttningsstädning</li>
+      </ul>
+    </section>
+
+    <section id="pricing">
+      <h2>Priser</h2>
+      <div id="priceCalculator">
+        <h3>Beräkna din städningskostnad</h3>
+        <label for="rooms">Antal rum:</label>
+        <input type="number" id="rooms">
+        <br>
+        <label for="bathrooms">Antal badrum:</label>
+        <input type="number" id="bathrooms">
+        <br>
+        <button id="calculateBtn">Beräkna</button>
+        <p id="result"></p>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>Kontakt</h2>
+      <p>För frågor eller bokning av tjänster, vänligen fyll i formuläret nedan:</p>
+      <form>
+        <label for="name">Namn:</label>
+        <input type="text" id="name" required>
+        <br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" required>
+        <br>
+        <label for="message">Medelande:</label>
+        <textarea id="message" rows="4" required></textarea>
+        <br>
+        <button type="submit">Skicka</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2023 Jo's Hem / Kontorsservice. All rights reserved.</p>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
